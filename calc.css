@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 380px;
+    /*Set width for whole calculator*/
+}
+
+#calc{
+    top: 240px;
+    left: 400px;
+    /*Size of the button area*/
+
+    position: absolute;
+}
+
+input[type = "button"]{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: "Lucida Console", serif;
+    font-weight: bold;
+    /*Set the size of each button and font*/
+}
+
+input[type = "button"]:hover{
+    /*hover: mouse hover over the button with background color display*/
+    background-color: darkorange;
+    border: 1px solid;
+}
+
+
+input[type = "text"]{
+    width: 364px;
+    height: 40px;
+    font-size: x-large;
+    font-family: "Lucida Console", serif;
+    font-weight: bold;
+    text-align: right;
+    /*The size of the display area and font*/
+
+    background-color: #fff;
+    border: 1px solid;
+
+    padding-right: 5px;
+    /*Textbox numbers are displayed too close to the right margin
+      add an inner margin  */
+
+    box-sizing: border-box;
+    /**
+        content-box：extend a distance
+        border-box: using existing space, no extension
+     */
+}
