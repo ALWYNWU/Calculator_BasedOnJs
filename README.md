@@ -8,3 +8,7 @@ Function:
 - Positive and negative signs
 - Decimal
 
+
+Image:
+
+![avatar](https://github.com/ALWYNWU/Calculator_BasedOnJs/blob/master/Image.png?raw=true)
