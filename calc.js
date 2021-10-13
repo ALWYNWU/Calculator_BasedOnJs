@@ -115,7 +115,7 @@ function back(n){
 
 function hyperlink(){
     document.getElementById("src").onclick = function (){
-        window.location.href = "http://google.com";
+        window.location.href = "https://github.com/ALWYNWU/Calculator_BasedOnJs.git";
     }
 }
 
