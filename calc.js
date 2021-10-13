@@ -18,9 +18,11 @@ function init(){
         oButton[i].onclick = function (){
            if (!isNaN(this.value)){
                num.value = (num.value + this.value)*1;
-              /* The return value of isNaN represents the value can be converted
-               to a number or not. If so, splice the string. Multiply by 1 to remove
-               the 0 at the beginning. Ex: 0123 * 1 = 123 */
+              /* 
+                The return value of isNaN represents the value can be converted
+                to a number or not. If so, splice the string. Multiply by 1 to remove
+                the 0 at the beginning. Ex: 0123 * 1 = 123 
+              */
            } else {
                var operator = this.value;
 
