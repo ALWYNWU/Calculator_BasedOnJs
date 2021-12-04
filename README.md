@@ -1,4 +1,4 @@
-# Calculator_BasedOnJs
+# Calculator Based On Javascript
 A simple web calculator based on JavaScript, CSS and HTML
 
 Function:
